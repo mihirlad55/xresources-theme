@@ -4,7 +4,7 @@
 
 ;; Author: Marten Lienen <marten.lienen@gmail.com>
 ;; Keywords: xresources, theme
-;; Version: 1.0.0
+;; Version: 1.0.1
 
 ;; This file is not part of GNU Emacs.
 
@@ -119,20 +119,20 @@
 
    ;; font lock
    `(font-lock-builtin-face ((t (:foreground ,foreground :weight bold))))
-   `(font-lock-comment-face ((t (:foreground ,green))))
-   `(font-lock-comment-delimiter-face ((t (:foreground ,green))))
-   `(font-lock-constant-face ((t (:foreground ,green))))
-   `(font-lock-doc-face ((t (:foreground ,green))))
-   `(font-lock-function-name-face ((t (:foreground ,cyan))))
-   `(font-lock-keyword-face ((t (:foreground ,yellow :weight bold))))
-   `(font-lock-negation-char-face ((t (:foreground ,yellow :weight bold))))
-   `(font-lock-preprocessor-face ((t (:foreground ,blue))))
-   `(font-lock-regexp-grouping-construct ((t (:foreground ,yellow :weight bold))))
-   `(font-lock-regexp-grouping-backslash ((t (:foreground ,green :weight bold))))
-   `(font-lock-string-face ((t (:foreground ,red))))
-   `(font-lock-type-face ((t (:foreground ,blue))))
+   `(font-lock-comment-face ((t (:foreground ,light-gray))))
+   `(font-lock-comment-delimiter-face ((t (:foreground ,light-gray))))
+   `(font-lock-constant-face ((t (:foreground ,light-red))))
+   `(font-lock-doc-face ((t (:foreground ,light-gray))))
+   `(font-lock-function-name-face ((t (:foreground ,blue))))
+   `(font-lock-keyword-face ((t (:foreground ,magenta :weight bold))))
+   `(font-lock-negation-char-face ((t (:foreground ,cyan :weight bold))))
+   `(font-lock-preprocessor-face ((t (:foreground ,magenta))))
+   `(font-lock-regexp-grouping-construct ((t (:foreground ,cyan :weight bold))))
+   `(font-lock-regexp-grouping-backslash ((t (:foreground ,cyan :weight bold))))
+   `(font-lock-string-face ((t (:foreground ,green))))
+   `(font-lock-type-face ((t (:foreground ,yellow))))
    `(font-lock-variable-name-face ((t (:foreground ,red))))
-   `(font-lock-warning-face ((t (:foreground ,yellow :weight bold))))
+   `(font-lock-warning-face ((t (:foreground ,light-cyan :weight bold))))
    `(c-annotation-face ((t (:inherit font-lock-constant-face))))
 
    ;; which-function-mode
